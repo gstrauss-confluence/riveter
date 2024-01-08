@@ -18,11 +18,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.required_ruby_version = '>= 3.2.0'
 
   spec.add_dependency 'railties'                     , '>= 4.0.0'
   spec.add_dependency 'activemodel'                  , '>= 4.0.0'
-  spec.add_dependency 'validates_timeliness'         , '>= 3.0.0'
+  spec.add_dependency 'validates_timeliness'         , '~> 7.0.0.beta1'
 
   spec.add_development_dependency 'bundler'          , '~> 1.15'
   spec.add_development_dependency 'rake'             , '~> 10.4.2'
